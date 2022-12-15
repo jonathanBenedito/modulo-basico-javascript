@@ -11,4 +11,16 @@ Link dos <a href="https://www.notion.so/Javascript-B-sico-72e0f87d21f44079b5af79
 
 ## Aula 01 - Primeiro Código
 
-<img src="src/images/01-primeiro-codigo/comandos-window.jpg" alt="Foto dos comandos" />
+1. alert()
+    ```
+    window.alert("Olá mundo!")
+    ```
+
+2. confirm()
+    ```
+    window.confirm("Certeza que quer excluir esse usuário?")
+    ```
+3. prompt()
+    ```
+    window.prompt("Digite sua idade")
+    ```
