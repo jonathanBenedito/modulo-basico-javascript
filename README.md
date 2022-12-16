@@ -7,7 +7,10 @@
 ## Conteúdo
 <ul>
     <li>
-        <a href="#aula-01-Primeiro-Código">Aula 01 - Primeiro Código (Comando: window)</a>
+        <a href="#aula-01-Primeiro-Código">Aula 01 - Primeiro Código (Código: window)</a>
+    </li>
+    <li>
+        <a href="#aula-02-Console-e-Comentário">Aula 02 - Console e Comentário (Código: console.log)</a>
     </li>
 </ul>
 
@@ -25,4 +28,23 @@
 3. prompt()
     ```
     window.prompt("Digite sua idade")
+    ```
+
+## Aula 02 - Console e Comentário
+
+1. console.log()
+    ```
+    console.log("Oi!")
+    ```
+
+2. comentário em linha
+    ```
+    // COMENTÁRIO DE LINHA console.log("Olá mundo!")
+    ```
+3. comentário em bloco
+    ```
+    /*
+        COMENTÁRIO DE BLOCO
+        console.log("Oi!")
+    */
     ```
