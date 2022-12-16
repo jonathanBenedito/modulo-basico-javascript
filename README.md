@@ -7,10 +7,13 @@
 ## Conteúdo
 <ul>
     <li>
-        <a href="#aula-01-Primeiro-Código">Aula 01 - Primeiro Código (Código: window)</a>
+        <a href="#aula-01---primeiro-código">Aula 01 - Primeiro Código (Código: window)</a>
     </li>
     <li>
-        <a href="#aula-02-Console-e-Comentário">Aula 02 - Console e Comentário (Código: console.log)</a>
+        <a href="#aula-02---console-e-comentário">Aula 02 - Console e Comentário (Código: console.log)</a>
+    </li>
+    <li>
+        <a href="#aula-03---declarando-variáveis">Aula 03 - Declarando Variáveis</a>
     </li>
 </ul>
 
@@ -48,3 +51,19 @@
         console.log("Oi!")
     */
     ```
+
+## Aula 03 - Declarando Variáveis
+
+### Anatomia
+    ```
+    var nomePessoa = "Roberto"
+    const emailPessoa = "roberto@gmail.com"
+    let telefonePessoa = "5198742222"
+    ```
+    
+
+### Escopos
+
+- `var` → Variáveis de escopo global, podem ser acessadas fora do bloco;
+- `const` → Variáveis de escopo local e não podem ser alteradas depois de declaradas;
+- `let` → Variáveis de escopo local e seus valores podem ser alteradas a qualquer momento;
