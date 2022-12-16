@@ -15,6 +15,9 @@
     <li>
         <a href="#aula-03---declarando-variáveis">Aula 03 - Declarando Variáveis</a>
     </li>
+    <li>
+        <a href="#aula-04---tipos-primitivos-de-variáveis">Aula 04 - Tipos Primitivos de Variáveis</a>
+    </li>
 </ul>
 
 ## Aula 01 - Primeiro Código
@@ -67,3 +70,21 @@
 - `var` → Variáveis de escopo global, podem ser acessadas fora do bloco;
 - `const` → Variáveis de escopo local e não podem ser alteradas depois de declaradas;
 - `let` → Variáveis de escopo local e seus valores podem ser alteradas a qualquer momento;
+
+## Aula 04 - Tipos Primitivos de Variáveis
+
+
+    ```
+    let nome = 'Roberto' // string
+    let numero = 1 // Number
+    let usuarioVerificado = false // boolean
+    let pessoa = null // null
+    let telefone = undefinied // undefined
+    ```
+    
+
+- `string`→ Variáveis de texto, ficam sempre entre aspas;
+- `Number`→ Variáveis de número, podem ser decimais ou inteiros;
+- `boolean` → Variáveis de lógica, podem ser `true` ou `false`;
+- `null` → Variáveis nulos, valores vazios;
+- `undefined` → Variáveis de nenhum tipo definido;
