@@ -58,11 +58,9 @@
 ## Aula 03 - Declarando Variáveis
 
 ### Anatomia
-    ```
     var nomePessoa = "Roberto"
     const emailPessoa = "roberto@gmail.com"
     let telefonePessoa = "5198742222"
-    ```
     
 
 ### Escopos
@@ -73,18 +71,125 @@
 
 ## Aula 04 - Tipos Primitivos de Variáveis
 
-
-    ```
     let nome = 'Roberto' // string
     let numero = 1 // Number
     let usuarioVerificado = false // boolean
     let pessoa = null // null
     let telefone = undefinied // undefined
-    ```
-    
 
 - `string`→ Variáveis de texto, ficam sempre entre aspas;
 - `Number`→ Variáveis de número, podem ser decimais ou inteiros;
 - `boolean` → Variáveis de lógica, podem ser `true` ou `false`;
 - `null` → Variáveis nulos, valores vazios;
 - `undefined` → Variáveis de nenhum tipo definido;
+
+## Aula 05 - Operadores Lógicos
+
+    ==
+    ===
+    !== 
+    != 
+    < 
+    <= 
+    > 
+    >= 
+    && 
+    ||
+    !
+- `==` (igual)
+    
+    ```jsx
+    let A = 3
+    let B = 3
+    
+    console.log(A == B)
+    ```
+    
+- `===` (idêntico)
+    
+    ```jsx
+    A = "3"
+    B = "3"
+    
+    console.log(A === B)
+    ```
+    
+- `!==` (não idêntico)
+    
+    ```jsx
+    A = 3
+    B = "3"
+    
+    console.log(A !== B)
+    ```
+    
+- `!=` (diferente)
+    
+    ```jsx
+    A = 3
+    B = 1
+    
+    console.log(A != B)
+    ```
+    
+- `<` (menor que)
+    
+    ```jsx
+    A = 2
+    B = 3
+    
+    console.log(A < B)
+    ```
+    
+- `<=` (menor igual que)
+    
+    ```jsx
+    A = 2
+    B = 2
+    
+    console.log(A <= B)
+    ```
+    
+- `>` (maior que)
+    
+    ```jsx
+    A = 3
+    B = 2
+    
+    console.log(A > B)
+    ```
+    
+- `>=` (maior igual que)
+    
+    ```jsx
+    A = 3
+    B = 3
+    
+    console.log(A >= B)
+    ```
+    
+- `&&` (AND)
+    
+    ```jsx
+    A = 4
+    B = "4"
+    
+    console.log((A >= B) && (A == B))
+    ```
+    
+- `||` (OU)
+    
+    ```jsx
+    A = 4
+    B = 3
+    
+    console.log((A > B) || (A == B))
+    ```
+    
+- `!` (NOT)
+    ```jsx
+    A = "3"
+    B = "3"
+
+    console.log(!(A === B))
+    ```
