@@ -18,6 +18,9 @@
     <li>
         <a href="#aula-04---tipos-primitivos-de-variáveis">Aula 04 - Tipos Primitivos de Variáveis</a>
     </li>
+        <li>
+        <a href="#aula-05---operadores-lógicos">Aula 05 - Operadores Lógicos</a>
+    </li>
 </ul>
 
 ## Aula 01 - Primeiro Código
