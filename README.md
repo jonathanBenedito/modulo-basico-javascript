@@ -18,8 +18,11 @@
     <li>
         <a href="#aula-04---tipos-primitivos-de-variáveis">Aula 04 - Tipos Primitivos de Variáveis</a>
     </li>
-        <li>
+    <li>
         <a href="#aula-05---operadores-lógicos">Aula 05 - Operadores Lógicos</a>
+    </li>
+    <li>
+        <a href="#aula-06---operadores-matemáticos">Aula 06 - Operadores Matemáticos</a>
     </li>
 </ul>
 
@@ -196,3 +199,34 @@
 
     console.log(!(A === B))
     ```
+
+## Aula 06 - Operadores Matemáticos
+```jsx
+// Operações matemáticas
+
+let a = 3
+let b = 2
+
+// Adição
+console.log(a + b)
+
+// Subtração
+console.log(a - b)
+
+// Multiplicação
+console.log(a * b)
+
+// Divisão
+console.log(a / b)
+
+// Módulo (Resto da divisão)
+console.log(a % b)
+
+// Concatenar valor: Usando + com diferentes variáveis irão juntar seus valores no 
+// formato string
+
+let primeiroValor = 4
+let segundoValor = "2"
+
+console.log(primeiroValor + segundoValor)
+```
