@@ -34,6 +34,23 @@
         <a href="#aula-09---funções">Aula 09 - Funções</a>
     </li>
 </ul>
+<ul>
+    <li>
+        <a href="#exercício-01">Exercício 01</a>
+    </li>
+    <li>
+        <a href="#exercício-02">Exercício 02</a>
+    </li>
+    <li>
+        <a href="#exercício-03">Exercício 03</a>
+    </li>
+    <li>
+        <a href="#exercício-04">Exercício 04</a>
+    </li>
+    <li>
+        <a href="#exercício-05">Exercício 05</a>
+    </li>
+</ul>
 
 ## Aula 01 - Primeiro Código
 
@@ -335,3 +352,23 @@ alert(nome())
 
 /* Os nomes das funções deverão ser em cammelCase, considerando os princípios do código limpo. */
 ```
+
+## Exercício 01
+
+<img src="Ex-01/Exercicio 1 - Proposta.jpg" height="500px"/>
+
+## Exercício 02
+
+<img src="Ex-02/Exercicio 2 - Proposta.jpg" height="500px"/>
+
+## Exercício 03
+
+<img src="Ex-03/Exercicio 03 - Proposta.jpg" height="500px"/>
+
+## Exercício 04
+
+<img src="Ex-04/Exercicio 04 - Proposta.jpg" height="500px"/>
+
+## Exercício 05
+
+<img src="Ex-05/Exercicio 05 - Proposta.jpg" height="500px"/>
