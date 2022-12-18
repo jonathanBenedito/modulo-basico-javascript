@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+</head>
+<body>
+    <h1>Condicionais</h1>
+
+    <div>
+        <div><span>// Condi&ccedil;&atilde;o if</span></div>
+        <br />
+        <div><span>let</span> <span>nomeFilme</span> = <span>'Batman vs Superman'</span></div>
+        <br />
+        <div><span>if</span> (<span>nomeFilme</span> === <span>'Vingadores'</span>) {</div>
+        <div>&nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; o filme dos Vingadores'</span>)</div>
+        <div>} <span>else</span> <span>if</span> (<span>nomeFilme</span> === <span>'Batman vs Superman'</span>) {</div>
+        <div>&nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; o filme do Batman vs Superman'</span>)</div>
+        <div>} <span>else</span> {</div>
+        <div>&nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; outro filme'</span>)</div>
+        <div>}</div>
+        <br />
+        <div><span>// Operador tern&aacute;rio</span></div>
+        <br />
+        <div><span>nomeFilme</span> === <span>'Vingadores'</span> ? <span>console</span>.<span>log</span>(<span>'&Eacute; o filme dos Vingadores'</span>) : <span>console</span>.<span>log</span>(<span>'&Eacute; outro filme'</span>)</div>
+        <br />
+        <div><span>// Switch</span></div>
+        <br />
+        <div><span>switch</span> (<span>nomeFilme</span>) {</div>
+        <div>&nbsp; &nbsp; <span>case</span> <span>'Vingadores'</span>:</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; o filme dos Vingadores'</span>)</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>break</span></div>
+        <div>&nbsp; &nbsp; <span>case</span> <span>'Batman vs Superman'</span>:</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; o filme do Batman vs Superman'</span>)</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>break</span></div>
+        <div>&nbsp; &nbsp; <span>case</span> <span>'Senhor dos An&eacute;is'</span>:</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; o filme do Senhor dos An&eacute;is'</span>)</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>break</span></div>
+        <div>&nbsp; &nbsp; <span>default</span>:</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>console</span>.<span>log</span>(<span>'&Eacute; outro filme'</span>)</div>
+        <div>&nbsp; &nbsp; &nbsp; &nbsp; <span>break</span></div>
+        <div>}</div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
