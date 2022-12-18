@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+<body>
+    <h1>Funções</h1>
+
+    <div>
+        <div><span>/*</span></div>
+        <div><span>&nbsp; &nbsp; # Fun&ccedil;&atilde;o simples #</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; function nomeDaFuncao(){</span></div>
+        <div><span>&nbsp; &nbsp; &nbsp; &nbsp; &lt;bloco de execu&ccedil;&atilde;o&gt;</span></div>
+        <div><span>&nbsp; &nbsp; }</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; nomeDaFuncao()</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; Os nomes das fun&ccedil;&otilde;es dever&atilde;o ser em cammelCase, considerando</span></div>
+        <div><span>&nbsp; &nbsp; os princ&iacute;pios do c&oacute;digo limpo.</span></div>
+        <div><span>*/</span></div>
+        <br />
+        <div><span>/*</span></div>
+        <div><span>&nbsp; &nbsp; # Fun&ccedil;&atilde;o com par&acirc;metros #</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; function nomeDaFuncao(parametro1, parametro2){</span></div>
+        <div><span>&nbsp; &nbsp; &nbsp; &nbsp; &lt;bloco de execu&ccedil;&atilde;o&gt;</span></div>
+        <div><span>&nbsp; &nbsp; }</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; nomeDaFuncao(parametro1, parametro2)</span></div>
+        <div><span>*/</span></div>
+        <br />
+        <div><span>/*</span></div>
+        <div><span>&nbsp; &nbsp; # Fun&ccedil;&atilde;o de par&acirc;metros com valor padr&atilde;o #</span></div>
+        <div><span>&nbsp; &nbsp; </span></div>
+        <div><span>&nbsp; &nbsp; function nomeDaFuncao(parametro1 = valor){</span></div>
+        <div><span>&nbsp; &nbsp; &nbsp; &nbsp; &lt;bloco de execu&ccedil;&atilde;o&gt;</span></div>
+        <div><span>&nbsp; &nbsp; }</span></div>
+        <br />
+        <div><span>&nbsp; &nbsp; nomeDaFuncao()</span></div>
+        <div><span>*/</span></div>
+        <br />
+        <div><span>// Fun&ccedil;&atilde;o simples</span></div>
+        <br />
+        <div><span>function</span> <span>incentivarQuester</span>(){</div>
+        <div>&nbsp; &nbsp; <span>alert</span>(<span>"Muito bem! Voc&ecirc; chegou ao JS, continue assim!"</span>)</div>
+        <div>}</div>
+        <br />
+        <div><span>incentivarQuester</span>()</div>
+        <br />
+        <div><span>// Fun&ccedil;&atilde;o com par&acirc;metros</span></div>
+        <br />
+        <div><span>function</span> <span>soma</span>(<span>numero1</span>, <span>numero2</span>) {</div>
+        <div>&nbsp; &nbsp; <span>return</span> <span>numero1</span> + <span>numero2</span></div>
+        <div>}</div>
+        <br />
+        <div><span>alert</span>(<span>soma</span>(<span>1</span>, <span>3</span>))</div>
+        <br />
+        <div><span>// Fun&ccedil;&atilde;o de par&acirc;metros com valor padr&atilde;o</span></div>
+        <br />
+        <div><span>function</span> <span>nome</span>(<span>nomeDoUsuario</span> = <span>'An&ocirc;nimo'</span>) {</div>
+        <div>&nbsp; &nbsp; <span>return</span> <span>nomeDoUsuario</span></div>
+        <div>}</div>
+        <br />
+        <div><span>alert</span>(<span>nome</span>(<span>"Roberto"</span>))</div>
+        <div><span>alert</span>(<span>nome</span>())</div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

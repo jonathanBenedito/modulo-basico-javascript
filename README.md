@@ -30,6 +30,9 @@
     <li>
         <a href="#aula-08---condicionais">Aula 08 - Condicionais</a>
     </li>
+    <li>
+        <a href="#aula-09---funções">Aula 09 - Funções</a>
+    </li>
 </ul>
 
 ## Aula 01 - Primeiro Código
@@ -300,4 +303,35 @@ switch (nomeFilme) {
         console.log('É outro filme')
         break
 }
+```
+
+## Aula 09 - Funções
+
+```jsx
+// Função simples
+
+function incentivarQuester(){
+    alert("Muito bem! Você chegou ao JS, continue assim!")
+}
+
+incentivarQuester()
+
+// Função com parâmetros
+
+function soma(numero1, numero2) {
+    return numero1 + numero2
+}
+
+alert(soma(1, 3))
+
+// Função de parâmetros com valor padrão
+
+function nome(nomeDoUsuario = 'Anônimo') {
+    return nomeDoUsuario
+}
+
+alert(nome("Roberto"))
+alert(nome())
+
+/* Os nomes das funções deverão ser em cammelCase, considerando os princípios do código limpo. */
 ```
