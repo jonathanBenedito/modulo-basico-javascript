@@ -24,6 +24,9 @@
     <li>
         <a href="#aula-06---operadores-matemáticos">Aula 06 - Operadores Matemáticos</a>
     </li>
+    <li>
+        <a href="#aula-07---laços-de-repetição">Aula 07 - Laços de Repetição</a>
+    </li>
 </ul>
 
 ## Aula 01 - Primeiro Código
@@ -229,4 +232,32 @@ let primeiroValor = 4
 let segundoValor = "2"
 
 console.log(primeiroValor + segundoValor)
+```
+
+## Aula 07 - Laços de Repetição
+```jsx
+// for(inicializador; condição; incremento)
+
+for(let i = 0; i < 5; i++) {
+    console.log(i)
+}
+
+// while(condição)
+
+let a = 10
+let b = 15
+
+while(a < b) {
+		console.log('incrementando a variavel a ' + a)
+		a++
+}
+
+// do {} while(condição)
+
+var i = 1
+
+do{
+		console.log('entrou ' + i)
+		i++
+}while(i <= 5)
 ```
